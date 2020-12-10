@@ -1,5 +1,7 @@
 
-
+""" This function calculates the fibboanncci
+ numbers based on the N parameter recursively
+"""
 def fib(n):
     if n <= 0:
         print('Invalid input')
@@ -10,6 +12,8 @@ def fib(n):
     else:
         return (fib(n-1) + fib(n-2))
 
+""" This function essentailly does the same as fib but 
+starting with the lucas numbers"""
 def lucas(n):
     if n <=0:
         print('Invalid Input')
@@ -20,6 +24,11 @@ def lucas(n):
     else:
         return (lucas(n-1) + lucas(n-2))
 
+""" This functions 
+calculates math series depending 
+on what you enter for the parameters giving it its two 
+starting numbers
+"""
 def sum_series(n,x=0,y=1):
     if ( x == 0 and y == 1 ):
         if n <= 0:
