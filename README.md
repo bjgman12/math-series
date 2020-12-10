@@ -8,3 +8,5 @@ description: this program was written to calculate fibbonacci  lucas as well as 
 ## contributors
 
 > got help from anthony beaver on  a part i was stuck on for sum series
+
+https://github.com/bjgman12/math-series
